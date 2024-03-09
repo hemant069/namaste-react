@@ -1,6 +1,7 @@
 import { createElement } from "react";
 
 import ReactDom from "react-dom/client";
+import { Header } from "./Components/Header";
 // using the createElement
 const h1 = createElement("h1", {}, "THis is h1");
 
@@ -43,4 +44,4 @@ let root = ReactDom.createRoot(container);
 // To using createElement in render write root.render(div)
 // To using Jsx in render write root.render(JsxDiv)
 // To using functional Component in render write root.render(<HeadingFun/>)
-root.render(<HeadingFun />);
+root.render(<Header />);
